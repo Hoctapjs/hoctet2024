@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+    <meta name="robots" content="index,follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/static/icon-192x192.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta charSet="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="application-name" content="PWA BHX" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="bachhoaxanh.com" />
+    <meta name="apple-mobile-web-app-status-bar-style" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#008848" />
+    <link rel="apple-touch-icon" href="/icon.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icon-512x512.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="viewport"
+        content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-itunes-app" content="app-id=1207511445" />
+    <title>BachHoaXanh.com</title>
+    <meta property="og:keywords" />
+    <link rel="preload" href="/static/images/green-home.svg" as="image" fetchpriority="high" />
+    <meta name="next-head-count" content="21" />
+    <link href="https://cdn.tgdd.vn/crmweb/survey/js/survey.min.css" rel="stylesheet" type="text/css" />
+    <link data-next-font="" rel="preconnect" href="/" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/css/f953f84c54bc732b.css"
+        as="style" />
+    <link rel="stylesheet" href="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/css/f953f84c54bc732b.css"
+        data-n-g="" /><noscript data-n-css=""></noscript>
+    <script defer="" nomodule=""
+        src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/7278.752403fc49bc2af1.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/2962.45747915d725fa18.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/5365.4290c254ee824361.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/3170.800781b47e199735.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/5675-7717080a1de9f57d.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/9422.f867c789e9a9b9da.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/3207.b31092eb1761decc.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/4354.36c1235b97741dca.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/5623.889510123af6515c.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/2993.c0b3e539d08df7d2.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/4030.e7342c9605a649a7.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/2546.61763f918b0aa019.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/5530.328f01bfa6fdb49e.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/9822.5e879310afee7c91.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/6066.9aec39b5c2732cf0.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/7473.f554d3dc7ff40c56.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/4848.461c1e2ce1dfc6be.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/9840.27bf9568c2b5eb4d.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/2702.67b6533f38b5a64d.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/8318.0076334b2efe08f8.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/8093.91f25dcfe8e860e9.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/9327.e01a45d3979465dd.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/1532.51bb3e185f6b58e5.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/3141.853d7844987fa812.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/9014.404e478e7d80bdfa.js"></script>
+    <script defer="" src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/3457.206cd70aa8c73e09.js"></script>
+    <script src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/webpack-349c05541788fcef.js"
+        defer=""></script>
+    <script src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/framework-874b6ad47ae36c86.js"
+        defer=""></script>
+    <script src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/main-57e9f909d69d373d.js" defer=""></script>
+    <script src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/pages/_app-94df09d3890026f5.js"
+        defer=""></script>
+    <script src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/chunks/pages/index-c9cbbc30dc642c62.js"
+        defer=""></script>
+    <script src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/1707101978419/_buildManifest.js" defer=""></script>
+    <script src="https://cdnv2.tgdd.vn/bhx/prod-fe/home/_next/static/1707101978419/_ssgManifest.js" defer=""></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        (function () { var z = ""; var b = "2866756e6374696f6e2829207b0d0a2066756e6374696f6e2067657453657373696f6e436f6f6b6965732829207b0d0a0976617220636f6f6b69654172726179203d206e657720417272617928293b0d0a0976617220634e616d65203d206e65772052656745787028275e5c5c733f696e6361705f7365735f27293b0d0a097661722063203d20646f63756d656e742e636f6f6b69652e73706c697428223b22293b0d0a09666f7220287661722069203d20303b2069203c20632e6c656e6774683b20692b2b29207b0d0a0909766172206b6579203d20635b695d2e73756273747228302c20635b695d2e696e6465784f6628223d2229293b0d0a09097661722076616c7565203d20635b695d2e73756273747228635b695d2e696e6465784f6628223d2229202b20312c20635b695d2e6c656e677468293b0d0a090969662028634e616d652e74657374286b65792929207b0d0a090909636f6f6b696541727261795b636f6f6b696541727261792e6c656e6774685d203d2076616c75653b0d0a09097d0d0a097d0d0a0972657475726e20636f6f6b696541727261793b0d0a207d0d0a2066756e6374696f6e20736574496e636170436f6f6b69652876417272617929207b0d0a09766172207265733b0d0a09747279207b0d0a090976617220636f6f6b696573203d2067657453657373696f6e436f6f6b69657328293b0d0a09097661722064696765737473203d206e657720417272617928636f6f6b6965732e6c656e677468293b0d0a0909666f7220287661722069203d20303b2069203c20636f6f6b6965732e6c656e6774683b20692b2b29207b0d0a090909646967657374735b695d203d2073696d706c6544696765737428764172726179202b20636f6f6b6965735b695d293b0d0a09097d0d0a0909726573203d20764172726179202b20222c6469676573743d22202b20646967657374732e6a6f696e28293b0d0a097d20636174636820286529207b0d0a0909726573203d20764172726179202b20222c6469676573743d22202b20656e636f6465555249436f6d706f6e656e7428652e746f537472696e672829293b0d0a097d0d0a09637265617465436f6f6b696528225f5f5f75746d7663222c207265732c203230293b0d0a207d0d0a2066756e6374696f6e2073696d706c65446967657374286d7973747229207b0d0a0976617220726573203d20303b0d0a09666f7220287661722069203d20303b2069203c206d797374722e6c656e6774683b20692b2b29207b0d0a0909726573202b3d206d797374722e63686172436f646541742869293b0d0a097d0d0a0972657475726e207265733b0d0a207d0d0a2066756e6374696f6e20637265617465436f6f6b6965286e616d652c2076616c75652c207365636f6e647329207b0d0a097661722065787069726573203d2022223b0d0a09696620287365636f6e647329207b0d0a09097661722064617465203d206e6577204461746528293b0d0a0909646174652e73657454696d6528646174652e67657454696d652829202b20287365636f6e6473202a203130303029293b0d0a09097661722065787069726573203d20223b20657870697265733d22202b20646174652e746f474d54537472696e6728293b0d0a097d0d0a09646f63756d656e742e636f6f6b6965203d206e616d65202b20223d22202b2076616c7565202b2065787069726573202b20223b20706174683d2f223b0d0a207d0d0a2066756e6374696f6e2074657374286f29207b0d0a0976617220726573203d2022223b0d0a0976617220764172726179203d206e657720417272617928293b0d0a09666f722028766172206a203d20303b206a203c206f2e6c656e6774683b206a2b2b29207b0d0a09207661722074657374203d206f5b6a5d5b305d3b0d0a092073776974636820286f5b6a5d5b315d29207b0d0a092009636173652022657869737473223a0d0a0909747279207b0d0a090909696628747970656f66286576616c2874657374292920213d3d2022756e646566696e656422297b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d7472756522293b0d0a0909097d0d0a090909656c73657b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d66616c736522293b0d0a0909097d0d0a09097d20636174636820286529207b0d0a0909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d66616c736522293b0d0a09097d0d0a0909627265616b3b0d0a090963617365202276616c7565223a0d0a09097472797b0d0a090909747279207b0d0a09090909726573203d206576616c2874657374293b0d0a09090909696628747970656f662872657329203d3d3d2022756e646566696e656422297b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d756e646566696e656422293b0d0a090909097d0d0a09090909656c736520696628726573203d3d3d206e756c6c297b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d6e756c6c22293b0d0a090909097d0d0a09090909656c7365207b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d22202b207265732e746f537472696e672829293b0d0a090909097d0909090d0a0909097d20636174636820286529207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d63616e6e6f74206576616c7561746522293b0d0a09090909627265616b3b0d0a0909097d0d0a090909627265616b3b0d0a09097d0d0a0909636174636820286529207b0d0a0909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742874657374202b20223d22202b2065293b0d0a09097d0d0a0909627265616b3b0d0a0909636173652022706c7567696e5f657874656e74696f6e73223a0d0a0909747279207b0d0a09090976617220657874656e74696f6e73203d205b5d3b0d0a090909747279207b0d0a0909090969203d20657874656e74696f6e732e696e6465784f6628226922293b0d0a0909097d20636174636820286529207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d696e6465784f66206973206e6f7420612066756e6374696f6e22293b0d0a09090909627265616b3b0d0a0909097d0d0a090909747279207b0d0a09090909766172206e756d203d206e6176696761746f722e706c7567696e732e6c656e6774683b0d0a09090909696620286e756d203d3d2030207c7c206e756d203d3d206e756c6c29207b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d6e6f20706c7567696e7322293b0d0a0909090909627265616b3b0d0a090909097d0d0a0909097d20636174636820286529207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d63616e6e6f74206576616c7561746522293b0d0a09090909627265616b3b0d0a0909097d0d0a0909090d0a090909666f72202876617220693d303b693c6e6176696761746f722e706c7567696e732e6c656e6774683b692b2b29207b0d0a0909090969662028747970656f66286e6176696761746f722e706c7567696e735b695d29203d3d3d2022756e646566696e65642229207b0d0a09090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d706c7567696e735b695d20697320756e646566696e656422293b0d0a0909090909627265616b3b0d0a090909097d0d0a0d0a090909097661722066696c656e616d65203d206e6176696761746f722e706c7567696e735b695d2e66696c656e616d653b0d0a0909090976617220657874203d20226e6f20657874656e74696f6e223b0d0a0909090969662028747970656f662866696c656e616d6529203d3d3d2022756e646566696e65642229207b0d0a0909090909657874203d202266696c656e616d6520697320756e646566696e6564223b0d0a090909097d0d0a09090909656c7365206966202866696c656e616d652e73706c697428222e22292e6c656e677468203e203129207b0d0a0909090909657874203d2066696c656e616d652e73706c697428272e27292e706f7028293b0d0a090909097d0d0a0d0a0909090969662028657874656e74696f6e732e696e6465784f662865787429203c203029207b0d0a0909090909657874656e74696f6e732e7075736828657874293b0d0a090909097d090d0a0909097d0d0a0909090d0a090909666f7209287661722069203d20303b2069203c20657874656e74696f6e732e6c656e6774683b20692b2b29207b0d0a090909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d22202b20657874656e74696f6e735b695d293b0d0a0909097d0d0a09097d0d0a0909636174636820286529207b0d0a0909097641727261795b7641727261792e6c656e6774685d203d20656e636f6465555249436f6d706f6e656e742822706c7567696e5f6578743d22202b2065293b0d0a09097d0d0a0909627265616b3b0d0a09207d0d0a097d0d0a0972657475726e207641727261792e6a6f696e28293b0d0a207d0d0a20766172206f203d205b0d0a095b226e6176696761746f72222c2022657869737473225d2c0d0a095b226e6176696761746f722e76656e646f72222c202276616c7565225d2c0d0a095b226e6176696761746f722e6170704e616d65222c202276616c7565225d2c0d0a095b226e6176696761746f722e706c7567696e732e6c656e6774683d3d30222c202276616c7565225d2c0d0a095b226e6176696761746f722e706c6174666f726d222c202276616c7565225d2c0d0a095b226e6176696761746f722e776562647269766572222c202276616c7565225d2c0d0a095b22706c6174666f726d222c2022706c7567696e5f657874656e74696f6e73225d2c0d0a095b22416374697665584f626a656374222c2022657869737473225d2c0d0a095b227765626b697455524c222c2022657869737473225d2c0d0a095b225f7068616e746f6d222c2022657869737473225d2c0d0a095b2263616c6c5068616e746f6d222c2022657869737473225d2c0d0a095b226368726f6d65222c2022657869737473225d2c0d0a095b2279616e646578222c2022657869737473225d2c0d0a095b226f70657261222c2022657869737473225d2c0d0a095b226f7072222c2022657869737473225d2c0d0a095b22736166617269222c2022657869737473225d2c0d0a095b22617765736f6d69756d222c2022657869737473225d2c0d0a095b2270756666696e446576696365222c2022657869737473225d2c0d0a095b225f5f6e696768746d617265222c2022657869737473225d2c0d0a095b22646f6d4175746f6d6174696f6e222c2022657869737473225d2c0d0a095b22646f6d4175746f6d6174696f6e436f6e74726f6c6c6572222c2022657869737473225d2c0d0a095b225f53656c656e69756d5f4944455f5265636f72646572222c2022657869737473225d2c0d0a095b22646f63756d656e742e5f5f7765626472697665725f7363726970745f666e222c2022657869737473225d2c0d0a095b22646f63756d656e742e246364635f6173646a666c617375746f70666876635a4c6d63666c5f222c2022657869737473225d2c0d0a095b2270726f636573732e76657273696f6e222c2022657869737473225d2c0d0a095b226e6176696761746f722e637075436c617373222c2022657869737473225d2c0d0a095b226e6176696761746f722e6f73637075222c2022657869737473225d2c0d0a095b226e6176696761746f722e636f6e6e656374696f6e222c2022657869737473225d2c0d0a095b226e6176696761746f722e6c616e67756167653d3d274327222c202276616c7565225d2c0d0a095b2277696e646f772e6f7574657257696474683d3d30222c202276616c7565225d2c0d0a095b2277696e646f772e6f757465724865696768743d3d30222c202276616c7565225d2c0d0a095b2277696e646f772e576562474c52656e646572696e67436f6e74657874222c2022657869737473225d2c0d0a095b22646f63756d656e742e646f63756d656e744d6f6465222c202276616c7565225d2c0d0a095b226576616c2e746f537472696e6728292e6c656e677468222c202276616c7565225d0d0a5d3b0d0a20747279207b0d0a09736574496e636170436f6f6b69652874657374286f29293b0d0a09646f63756d656e742e637265617465456c656d656e742822696d6722292e737263203d20222f5f496e63617073756c615f5265736f757263653f53574b4d544653523d3126653d22202b204d6174682e72616e646f6d28293b0d0a207d20636174636820286529207b0d0a09696d67203d20646f63756d656e742e637265617465456c656d656e742822696d6722293b0d0a09696d672e737263203d20222f5f496e63617073756c615f5265736f757263653f53574b4d544653523d3126653d22202b20653b0d0a207d0d0a7d2928293b0d0a"; eval((function () { for (var i = 0; i < b.length; i += 2) { z += String.fromCharCode(parseInt(b.substring(i, i + 2), 16)); } return z; })()); })();
+    </script>
+    <div id="__next">
+        <div class="relative block min-h-screen bg-black-20">
+            <header class="background_header_mobile fixed inset-x-0 top-0 m-auto w-full pt-3 z-20" data-store="0"
+                data-storetypeid="0" data-product="0">
+                <div
+                    class="mx-auto flex max-w-screen-xl items-start justify-between transition-all duration-[400ms] ease-in-out">
+                    <div class="flex flex-col justify-between">
+                        <div class="icon__logo ml-[22px] mt-[6px] h-[41px] w-[176px] scale-[1.35] cursor-pointer"></div>
+                        <button
+                            class="relative mt-[10px] flex w-[270px] items-center rounded-t-md bg-[#006133] px-[10px] py-1 text-16 text-white cursor-default">
+                            <div class="relative inline-block mr-2"><img alt="menu" loading="lazy" width="0" height="0"
+                                    decoding="async" data-nimg="1" class="opacity-100"
+                                    style="color:transparent;width:100%;height:auto"
+                                    src="/static/icons/menu icon.svg" /></div>DANH MỤC SẢN PHẨM
+                        </button>
+                    </div>
+                    <div class="flex-1 px-5">
+                        <div class="relative flex h-[40px] rounded-md bg-white">
+                            <div class="relative w-[52px] text-[#007e42]"><i
+                                    class="icon__search absolute left-[20px] top-[50%] -translate-x-2/4 -translate-y-2/4"></i>
+                            </div>
+                            <div class="relative w-full rounded-r-[6px] bg-white">
+                                <div class="size-full cursor-text">
+                                    <div class="size-full overflow-hidden pr-[64px]">
+                                        <div id="input_open_search"
+                                            class=" flex size-full items-center bg-white text-12 font-thin text-[#9DA7BC] outline-none lg:text-14">
+                                            Bạn tìm gì ở Bách Hoá Xanh</div>
+                                    </div>
+                                </div><a href="/gio-hang"><i id="cart"
+                                        class="icon__cart absolute right-[3px] top-[2px]"></i></a>
+                            </div>
+                        </div>
+                        <ul
+                            class="ml-4 mr-2 flex list-disc items-center justify-between pt-3 text-13 text-[#fff] transition-all duration-[400ms]">
+                            <li class="">Giao siêu tốc 30 phút</li>
+                            <li class="">Freeship đơn từ 150k</li>
+                            <li class="">Bao ăn</li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col items-end">
+                        <div id="btn_choose_location"
+                            class="relative mt-[2px] flex w-full min-w-[219px] max-w-[300px] cursor-pointer justify-end">
+                            <div class="h-[36px]">
+                                <div class="relative">
+                                    <div>
+                                        <div class="relative inline-block left-0 top-0 size-full object-cover"
+                                            style="width:272px;height:36px"><img alt="Select Location" loading="lazy"
+                                                width="0" height="0" decoding="async" data-nimg="1"
+                                                class="opacity-100 !object-cover"
+                                                style="color:transparent;width:100%;height:auto"
+                                                src="/static/images/unselect-location.svg" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex"><a
+                                class="mt-2 flex w-fit cursor-pointer items-center rounded-t-md bg-[#006133] px-2 py-1 text-14 text-white"
+                                href="/dang-nhap">
+                                <div class="relative inline-block mr-2" style="width:24px;height:24px"><img alt=""
+                                        loading="lazy" width="0" height="0" decoding="async" data-nimg="1"
+                                        class="opacity-100" style="color:transparent;width:100%;height:auto"
+                                        src="/static/icons/user.svg" /></div><span>Đăng nhập</span>
+                            </a></div>
+                    </div>
+                </div>
+            </header>
+            <div class="">
+                <div class="relative mx-auto max-w-screen-xl">
+                    <div style="scrollbar-gutter:stable"
+                        class="menu-desktop top-[90px] z-[11] max-h-[calc(100vh-100px)] w-[270px] overflow-y-hidden bg-white hover:overflow-y-auto fixed">
+                        <div class="relative"><a
+                                class="m-[0px_12px] flex cursor-pointer items-center border-b-[1px] border-[#E4E9F2] p-[12px_0px]"
+                                href="/lich-su-mua-hang?orderlist=false"><span
+                                    class="flex items-center text-[14px] font-semibold uppercase leading-5 text-[#222b45]"><i
+                                        class="icon__menu_cart ml-[-2px] mr-[2px] !w-[22px] scale-125"></i>Sản phẩm bạn
+                                    từng mua</span></a>
+                            <div class="m-[0px_12px] flex cursor-pointer items-center p-[12px_0px]"><span
+                                    class="flex items-center text-[14px] font-semibold uppercase leading-5 text-[#222b45]"><i
+                                        class="icon__discount scale-125"></i><span class="ml-[6px]">Khuyến mãi
+                                        sốc</span></span></div><a href="/he-thong-sieu-thi"
+                                class="m-[0px_12px] flex items-center border-y-1px border-[#e4e9f2] p-[12px_0px]"><span
+                                    class="flex items-center text-[14px] font-semibold uppercase leading-5 text-[#222b45]">
+                                    <div class="relative inline-block mr-1" style="width:20px;height:20px"><img alt=""
+                                            loading="lazy" width="0" height="0" decoding="async" data-nimg="1"
+                                            class="opacity-100" style="color:transparent;width:100%;height:auto"
+                                            src="/static/icons/menu_store.svg" /></div>Xem 1.698 siêu thị
+                                </span></a><a
+                                class="m-[0px_12px] flex cursor-pointer items-center border-[#E4E9F2] p-[12px_0px]"
+                                href="/kinh-nghiem-hay"><span
+                                    class="flex items-center text-[14px] font-semibold uppercase leading-5 text-[#222b45]">
+                                    <div class="relative inline-block mr-1" style="width:20px;height:20px"><img alt=""
+                                            loading="lazy" width="0" height="0" decoding="async" data-nimg="1"
+                                            class="opacity-100" style="color:transparent;width:100%;height:auto"
+                                            src="/static/icons/menu_knh.svg" /></div>Kinh nghiệm hay
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto max-w-screen-xl pt-[90px] transition-all duration-[400ms] ease-in-out">
+                <div class="flex-1 bg-black-20 pl-[280px]">
+                    <main id="main-layout min-height-layout">
+                        <div class="ml-auto bg-black-20">
+                            <div></div>
+                            <div class="mb-[8px] min-h-[114px] rounded-[4px] bg-white px-[6px] pb-[4px] pt-[8px]">
+                                <div class="h-[115px] bg-white py-3">
+                                    <div class="px-[6px]">
+                                        <div class="flex items-center justify-between">
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                            <div role="status"
+                                                class="w-[calc(100%/12)] mb-2 animate-pulse rounded px-1">
+                                                <div class="mb-1 h-14 w-full  rounded-xl bg-gray-200"></div>
+                                                <div class="h-4 rounded-xl bg-gray-200"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-3">
+                                <div role="status" class="w-full animate-pulse rounded bg-white p-1 text-center">
+                                    <div class="m-auto h-20 w-full overflow-hidden rounded bg-gray-200 lg:h-28"></div>
+                                </div>
+                            </div>
+                            <div class="min-h-[410px]">
+                                <div class="my-3 mt-7">
+                                    <div class="relative h-7 w-full rounded bg-white">
+                                        <div
+                                            class="absolute inset-x-0 top-[-17px] m-auto mb-2  h-[34px] w-[260px] animate-pulse rounded-b-xl bg-gray-200 before:absolute before:left-[-9px] before:top-0 before:border-r-9px before:border-t-16px before:border-r-[#dddfe5] before:border-t-transparent after:absolute after:right-[-9px] after:top-0 after:border-l-9px after:border-t-16px after:border-l-[#dddfe5] after:border-t-transparent">
+                                        </div>
+                                    </div>
+                                    <div class="bg-gray-200 p-3 pt-0">
+                                        <div class="relative p-[6px]">
+                                            <div class="mt-6 flex flex-col">
+                                                <div class="mb-3 mt-[4px] w-full">
+                                                    <div class="bg-white p-[6px]">
+                                                        <div class="flex items-center justify-between">
+                                                            <div role="status"
+                                                                class="w-[22%] animate-pulse rounded bg-white">
+                                                                <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                    <div
+                                                                        class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                        <img alt="" loading="lazy" width="0" height="0"
+                                                                            decoding="async" data-nimg="1"
+                                                                            class="opacity-100"
+                                                                            style="color:transparent;width:100%;height:auto"
+                                                                            src="/static/images/default-image.svg" />
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                            </div>
+                                                            <div role="status"
+                                                                class="w-[22%] animate-pulse rounded bg-white">
+                                                                <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                    <div
+                                                                        class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                        <img alt="" loading="lazy" width="0" height="0"
+                                                                            decoding="async" data-nimg="1"
+                                                                            class="opacity-100"
+                                                                            style="color:transparent;width:100%;height:auto"
+                                                                            src="/static/images/default-image.svg" />
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                            </div>
+                                                            <div role="status"
+                                                                class="w-[22%] animate-pulse rounded bg-white">
+                                                                <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                    <div
+                                                                        class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                        <img alt="" loading="lazy" width="0" height="0"
+                                                                            decoding="async" data-nimg="1"
+                                                                            class="opacity-100"
+                                                                            style="color:transparent;width:100%;height:auto"
+                                                                            src="/static/images/default-image.svg" />
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                            </div>
+                                                            <div role="status"
+                                                                class="w-[22%] animate-pulse rounded bg-white">
+                                                                <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                    <div
+                                                                        class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                        <img alt="" loading="lazy" width="0" height="0"
+                                                                            decoding="async" data-nimg="1"
+                                                                            class="opacity-100"
+                                                                            style="color:transparent;width:100%;height:auto"
+                                                                            src="/static/images/default-image.svg" />
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                                <div
+                                                                    class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="relative mt-[14px] hidden">
+                                    <div class="absolute left-[50%] top-[-6px] translate-x-[-50%]">
+                                        <div class="relative inline-block size-full object-contain"
+                                            style="width:340px;height:45px"><img alt="" fetchpriority="high" width="0"
+                                                height="0" decoding="async" data-nimg="1"
+                                                class="opacity-100 !object-contain"
+                                                style="color:transparent;width:100%;height:auto"
+                                                src="/static/images/green-home.svg" /></div><span
+                                            class="absolute left-0 top-[1px] w-full px-10 text-center text-16 font-semibold uppercase leading-[30px] text-white">Khuyến
+                                            mãi sốc</span>
+                                    </div>
+                                    <div
+                                        class="min-h-[300px] rounded-[6px] bg-gradient-to-b from-[#007E42]/[21] to-[#B7AE23] p-[1px]">
+                                        <div class="size-full rounded-[6px] bg-[#FFF] pb-[8px] pt-[25px]">
+                                            <div class="no-scrollbar relative flex overflow-auto p-[4px] !py-0"></div>
+                                            <div class="bg-gray-200pt-0">
+                                                <div class="relative p-[6px]">
+                                                    <div class="mt-2 flex flex-col">
+                                                        <div class="mb-2 mt-[4px] w-full">
+                                                            <div class="bg-white p-[6px]">
+                                                                <div class="flex items-center justify-between">
+                                                                    <div role="status"
+                                                                        class="w-[22%] animate-pulse rounded bg-white">
+                                                                        <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                            <div
+                                                                                class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                                <img alt="" loading="lazy" width="0"
+                                                                                    height="0" decoding="async"
+                                                                                    data-nimg="1" class="opacity-100"
+                                                                                    style="color:transparent;width:100%;height:auto"
+                                                                                    src="/static/images/default-image.svg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div role="status"
+                                                                        class="w-[22%] animate-pulse rounded bg-white">
+                                                                        <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                            <div
+                                                                                class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                                <img alt="" loading="lazy" width="0"
+                                                                                    height="0" decoding="async"
+                                                                                    data-nimg="1" class="opacity-100"
+                                                                                    style="color:transparent;width:100%;height:auto"
+                                                                                    src="/static/images/default-image.svg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div role="status"
+                                                                        class="w-[22%] animate-pulse rounded bg-white">
+                                                                        <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                            <div
+                                                                                class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                                <img alt="" loading="lazy" width="0"
+                                                                                    height="0" decoding="async"
+                                                                                    data-nimg="1" class="opacity-100"
+                                                                                    style="color:transparent;width:100%;height:auto"
+                                                                                    src="/static/images/default-image.svg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div role="status"
+                                                                        class="w-[22%] animate-pulse rounded bg-white">
+                                                                        <div class="mb-2 h-36 w-full  bg-gray-200">
+                                                                            <div
+                                                                                class="relative inline-block m-auto h-36 w-full overflow-hidden rounded">
+                                                                                <img alt="" loading="lazy" width="0"
+                                                                                    height="0" decoding="async"
+                                                                                    data-nimg="1" class="opacity-100"
+                                                                                    style="color:transparent;width:100%;height:auto"
+                                                                                    src="/static/images/default-image.svg" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                        <div
+                                                                            class="m-auto mb-2 h-4  w-full rounded bg-gray-200">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mt-[10px] h-[26px]">
+                                                <div class="slick-slider slick-vertical slick-initialized" dir="ltr">
+                                                    <div class="slick-list">
+                                                        <div class="slick-track" style="width:700%;left:-100%">
+                                                            <div data-index="-1" tabindex="-1"
+                                                                class="slick-slide slick-cloned" aria-hidden="true"
+                                                                style="width:14.285714285714286%">
+                                                                <div><a href="https://www.bachhoaxanh.com/chinh-sach-bao-an-bao-doi"
+                                                                        tabindex="-1"
+                                                                        style="width:100%;display:inline-block">
+                                                                        <div
+                                                                            class="text-delivery text-center align-middle font-bold lg:text-14">
+                                                                            Hoàn tiền hoặc giao lại ngay nếu sản phẩm hư
+                                                                            hỏng, hết hạn</div>
+                                                                    </a></div>
+                                                            </div>
+                                                            <div data-index="0"
+                                                                class="slick-slide slick-active slick-current"
+                                                                tabindex="-1" aria-hidden="false"
+                                                                style="outline:none;width:14.285714285714286%">
+                                                                <div><a href="/chinh-sach-giao-hang" tabindex="-1"
+                                                                        style="width:100%;display:inline-block">
+                                                                        <div
+                                                                            class="text-center align-middle text-[13px] font-bold lg:text-14">
+                                                                            <i
+                                                                                class="icon__home_truck mb-[-4px]"></i>Freeship
+                                                                            cho đơn từ 150k + Giao 2h</div>
+                                                                    </a></div>
+                                                            </div>
+                                                            <div data-index="1" class="slick-slide" tabindex="-1"
+                                                                aria-hidden="true"
+                                                                style="outline:none;width:14.285714285714286%">
+                                                                <div><a href="/kinh-nghiem-hay/huong-dan-cach-su-dung-voucher-tai-website-bachhoaxanhcom-1363774"
+                                                                        tabindex="-1"
+                                                                        style="width:100%;display:inline-block">
+                                                                        <div
+                                                                            class="text-center align-middle text-[13px] font-bold lg:text-14">
+                                                                            Giao NGAY trong 1h (24/7)</div>
+                                                                    </a></div>
+                                                            </div>
+                                                            <div data-index="2" class="slick-slide" tabindex="-1"
+                                                                aria-hidden="true"
+                                                                style="outline:none;width:14.285714285714286%">
+                                                                <div><a href="https://www.bachhoaxanh.com/chinh-sach-bao-an-bao-doi"
+                                                                        tabindex="-1"
+                                                                        style="width:100%;display:inline-block">
+                                                                        <div
+                                                                            class="text-delivery text-center align-middle font-bold lg:text-14">
+                                                                            Hoàn tiền hoặc giao lại ngay nếu sản phẩm hư
+                                                                            hỏng, hết hạn</div>
+                                                                    </a></div>
+                                                            </div>
+                                                            <div data-index="3" tabindex="-1"
+                                                                class="slick-slide slick-cloned" aria-hidden="true"
+                                                                style="width:14.285714285714286%">
+                                                                <div><a href="/chinh-sach-giao-hang" tabindex="-1"
+                                                                        style="width:100%;display:inline-block">
+                                                                        <div
+                                                                            class="text-center align-middle text-[13px] font-bold lg:text-14">
+                                                                            <i
+                                                                                class="icon__home_truck mb-[-4px]"></i>Freeship
+                                                                            cho đơn từ 150k + Giao 2h</div>
+                                                                    </a></div>
+                                                            </div>
+                                                            <div data-index="4" tabindex="-1"
+                                                                class="slick-slide slick-cloned" aria-hidden="true"
+                                                                style="width:14.285714285714286%">
+                                                                <div><a href="/kinh-nghiem-hay/huong-dan-cach-su-dung-voucher-tai-website-bachhoaxanhcom-1363774"
+                                                                        tabindex="-1"
+                                                                        style="width:100%;display:inline-block">
+                                                                        <div
+                                                                            class="text-center align-middle text-[13px] font-bold lg:text-14">
+                                                                            Giao NGAY trong 1h (24/7)</div>
+                                                                    </a></div>
+                                                            </div>
+                                                            <div data-index="5" tabindex="-1"
+                                                                class="slick-slide slick-cloned" aria-hidden="true"
+                                                                style="width:14.285714285714286%">
+                                                                <div><a href="https://www.bachhoaxanh.com/chinh-sach-bao-an-bao-doi"
+                                                                        tabindex="-1"
+                                                                        style="width:100%;display:inline-block">
+                                                                        <div
+                                                                            class="text-delivery text-center align-middle font-bold lg:text-14">
+                                                                            Hoàn tiền hoặc giao lại ngay nếu sản phẩm hư
+                                                                            hỏng, hết hạn</div>
+                                                                    </a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="min-h-[370px]">
+                                <div class="mt-[8px] min-h-[370px]">
+                                    <div class="my-3">
+                                        <div role="status"
+                                            class="w-full animate-pulse rounded bg-white p-1 text-center">
+                                            <div class="m-auto h-20 w-full overflow-hidden rounded bg-gray-200 lg:h-28">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 mt-7">
+                                        <div class="relative h-7 w-full rounded bg-white">
+                                            <div
+                                                class="absolute inset-x-0 top-[-17px] m-auto mb-2  h-[34px] w-[260px] animate-pulse rounded-b-xl bg-gray-200 before:absolute before:left-[-9px] before:top-0 before:border-r-9px before:border-t-16px before:border-r-[#dddfe5] before:border-t-transparent after:absolute after:right-[-9px] after:top-0 after:border-l-9px after:border-t-16px after:border-l-[#dddfe5] after:border-t-transparent">
+                                            </div>
+                                        </div>
+                                        <div class="bg-white p-[6px]">
+                                            <div class="flex items-center justify-between">
+                                                <div role="status" style="width:calc(100%/5 - 6px)"
+                                                    class="animate-pulse rounded bg-white">
+                                                    <div class="mb-2 h-40 w-full  bg-gray-200">
+                                                        <div
+                                                            class="relative inline-block m-auto h-40 w-full overflow-hidden rounded">
+                                                            <img alt="" loading="lazy" width="0" height="0"
+                                                                decoding="async" data-nimg="1" class="opacity-100"
+                                                                style="color:transparent;width:100%;height:inherit"
+                                                                src="/static/images/default-image.svg" /></div>
+                                                    </div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                </div>
+                                                <div role="status" style="width:calc(100%/5 - 6px)"
+                                                    class="animate-pulse rounded bg-white">
+                                                    <div class="mb-2 h-40 w-full  bg-gray-200">
+                                                        <div
+                                                            class="relative inline-block m-auto h-40 w-full overflow-hidden rounded">
+                                                            <img alt="" loading="lazy" width="0" height="0"
+                                                                decoding="async" data-nimg="1" class="opacity-100"
+                                                                style="color:transparent;width:100%;height:inherit"
+                                                                src="/static/images/default-image.svg" /></div>
+                                                    </div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                </div>
+                                                <div role="status" style="width:calc(100%/5 - 6px)"
+                                                    class="animate-pulse rounded bg-white">
+                                                    <div class="mb-2 h-40 w-full  bg-gray-200">
+                                                        <div
+                                                            class="relative inline-block m-auto h-40 w-full overflow-hidden rounded">
+                                                            <img alt="" loading="lazy" width="0" height="0"
+                                                                decoding="async" data-nimg="1" class="opacity-100"
+                                                                style="color:transparent;width:100%;height:inherit"
+                                                                src="/static/images/default-image.svg" /></div>
+                                                    </div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                </div>
+                                                <div role="status" style="width:calc(100%/5 - 6px)"
+                                                    class="animate-pulse rounded bg-white">
+                                                    <div class="mb-2 h-40 w-full  bg-gray-200">
+                                                        <div
+                                                            class="relative inline-block m-auto h-40 w-full overflow-hidden rounded">
+                                                            <img alt="" loading="lazy" width="0" height="0"
+                                                                decoding="async" data-nimg="1" class="opacity-100"
+                                                                style="color:transparent;width:100%;height:inherit"
+                                                                src="/static/images/default-image.svg" /></div>
+                                                    </div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                </div>
+                                                <div role="status" style="width:calc(100%/5 - 6px)"
+                                                    class="animate-pulse rounded bg-white">
+                                                    <div class="mb-2 h-40 w-full  bg-gray-200">
+                                                        <div
+                                                            class="relative inline-block m-auto h-40 w-full overflow-hidden rounded">
+                                                            <img alt="" loading="lazy" width="0" height="0"
+                                                                decoding="async" data-nimg="1" class="opacity-100"
+                                                                style="color:transparent;width:100%;height:inherit"
+                                                                src="/static/images/default-image.svg" /></div>
+                                                    </div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                    <div class="m-auto mb-2 h-4  w-full rounded bg-gray-200"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-[40px] bg-white">
+                                <div class="relative mt-[30px] min-h-[30px] w-full border-t-[1px] border-[#FF5D01]"
+                                    style="background:radial-gradient(73.24% 73.24% at 50% 26.76%, rgba(255, 214, 0, 0.2) 0%, rgba(255, 92, 0, 0.2) 100%)">
+                                    <div
+                                        class="absolute left-[50%] top-[-34px] w-[85%] min-w-[325px] translate-x-[-50%] ">
+                                        <div
+                                            class="relative flex items-center justify-center rounded-t-[20px] border-[1px] border-[#FF5D01] bg-gradient-to-r from-[#FF946F] to-[#FFD35E] px-[4px] py-1 text-[#00AC5B]">
+                                            <div
+                                                class="ml-1 flex min-h-[24px] items-center uppercase leading-[18px] text-[#fff]">
+                                                <i class="icon__yellow-star"></i><span
+                                                    class="mx-[4px] text-16 font-bold tracking-normal">Gian hàng và ưu
+                                                    đãi từ hãng</span><i class="icon__yellow-star"></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-wrap content-stretch px-[6px] pb-[8px] pt-[18px]"></div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex w-full items-center justify-between bg-[#007e42] px-3 py-2 text-10 text-[#fff]">
+                                <div class="flex">
+                                    <div class="flex items-center">
+                                        <div class="text-12">Bán hàng 7:00 - 21:30</div><span
+                                            class="ml-2 text-14 font-semibold"><i
+                                                class="icon-call-mobile scale-125"></i><a class="text-14"
+                                                href="tel:19001908">1900 1908</a></span>
+                                    </div>
+                                    <div class="ml-[20px] flex items-center">
+                                        <div class="text-12">Khiếu nại 7:30 - 21:00</div><span
+                                            class="ml-2 text-14 font-semibold"><i
+                                                class="icon-call-mobile scale-125"></i><a class="text-14"
+                                                href="tel:18001067">1800 1067</a></span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-[58px] min-w-[65px] text-12 font-bold text-[#fff101]">Cam kết:</div>
+                                    <div class="ml-[2px] flex w-full text-[#fff]">
+                                        <div class="mr-[10px] inline-flex items-center text-12"><i
+                                                class="icon__home_policy mr-[4px]"></i> <span
+                                                class="whitespace-nowrap">15.000 sản phẩm</span></div>
+                                        <div class="mr-[10px] inline-flex items-center text-12"><i
+                                                class="icon__home_policy mr-[4px]"></i> <span
+                                                class="whitespace-nowrap">Freeship đơn 150k</span></div>
+                                        <div class="mr-[10px] inline-flex items-center text-12"><i
+                                                class="icon__home_policy mr-[4px]"></i> <span
+                                                class="whitespace-nowrap">Giao 2h</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                    <footer class="m-auto flex w-full min-w-[360px] max-w-screen-xl flex-col">
+                        <div class="flex flex-col bg-[#fff] p-3">
+                            <div class="flex">
+                                <div class="max-w-[60%]"></div>
+                                <div class="flex flex-col">
+                                    <div class="overflow-hidden"><a href="https://www.facebook.com/sieuthibachhoaxanh/"
+                                            class="list_footer_desktop mb-[10px]" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <div class="fb-subscriber"><i class="icon-fb-mobile"></i><b>588</b>k fan
+                                            </div>
+                                        </a><a class="list_footer_desktop mb-[10px]"
+                                            href="http://online.gov.vn/Home/WebDetails/94623"><i
+                                                class="icon-bct-mobile"></i></a><a
+                                            href="https://www.dmca.com/Protection/Status.aspx?ID=278f841e-9c77-4573-a1c8-1f692ee09504&amp;refurl=https://www.bachhoaxanh.com/thit-bo/dui-bo-nhap-khau-dong-lanh-tui-500g"
+                                            class="list_footer_desktop mb-[10px]" title="DMCA.com Protection Status"><i
+                                                class="icon-dmca-mobile"></i></a><a
+                                            href="https://www.youtube.com/channel/UCF7OPnbn3u8OivdD4cqBkRQ"
+                                            class="list_footer_desktop mb-[10px]" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <div class="yt-subscriber"><i class="icon-yt-mobile"></i><b>62,7</b>k theo
+                                                dõi</div>
+                                        </a><a
+                                            href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/bachhoaxanhcom-1632835470"
+                                            class="list_footer_desktop mb-[10px]" title="Chung nhan Tin Nhiem Mang"
+                                            target="_blank" rel="noreferrer">
+                                            <div class="relative inline-block lazy loaded"
+                                                style="width:100px;height:45px"><img alt="Chung nhan Tin Nhiem Mang"
+                                                    loading="lazy" width="0" height="0" decoding="async" data-nimg="1"
+                                                    class="opacity-100" style="color:transparent;width:100%;height:auto"
+                                                    src="https://tinnhiemmang.vn/handle_cert?id=bachhoaxanh.com" />
+                                            </div>
+                                        </a>
+                                        <div class="flex min-w-[220px] flex-col items-start">
+                                            <div class="ml-[2px] flex items-center justify-center"><i
+                                                    class="icon-app-logo"></i>
+                                                <ul class="ml-[4px] flex flex-col justify-between">
+                                                    <li class="text-14 font-bold text-[#037841]">Tải app Bách hoá XANH
+                                                    </li>
+                                                    <li class="text-14 text-[#515764]">Mua nhanh, mua dễ</li>
+                                                </ul>
+                                            </div>
+                                            <div class="ml-3 mt-3 flex w-full"><a
+                                                    href="https://play.google.com/store/apps/details?id=com.bachhoaxanh&amp;referrer=utm_source%3Dfromefooterandroid"
+                                                    class="w-[105px]" rel="noopener noreferrer"><i
+                                                        class="icon-ch_play scale-125">Google Play</i></a><a
+                                                    href="https://click.google-analytics.com/redirect?tid=UA-204038942-1&amp;url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fb%C3%A1ch-h%C3%B3a-xanh%2Fid1207511445&amp;aid=com.bachhoaxanh&amp;idfa=%{idfa}&amp;cs=fromfooterios"
+                                                    class="ml-2 w-[105px]" rel="noopener noreferrer"><i
+                                                        class="icon-app_store ml-[2px] scale-125">App Store</i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-1 mt-3 text-14">Website cùng tập đoàn</div>
+                            <div class="flex justify-between"><a href="https://www.thegioididong.com/"
+                                    class="list_footer_desktop" target="_blank" rel="noopener noreferrer"><i
+                                        class="icon-tgdd-mobile"></i></a><a href="https://www.dienmayxanh.com/"
+                                    class="list_footer_desktop" target="_blank" rel="noopener noreferrer"><i
+                                        class="icon-dmx-mobile"></i></a><a href="https://www.topzone.vn/"
+                                    class="list_footer_desktop" target="_blank" rel="noopener noreferrer"><i
+                                        class="icon-topzone-mobile"></i></a><a href="https://www.avakids.com/"
+                                    class="list_footer_desktop" target="_blank" rel="noopener noreferrer"><i
+                                        class="icon-avakid-mobile"></i></a><a href="https://www.nhathuocankhang.com/"
+                                    class="list_footer_desktop" target="_blank" rel="noopener noreferrer"><i
+                                        class="icon-ak-mobile"></i></a><a href="https://www.maiamtgdd.vn/"
+                                    class="list_footer_desktop" target="_blank" rel="noopener noreferrer"><i
+                                        class="icon-maiam-mobile"></i></a><a href="https://www.4kfarm.com/"
+                                    class="list_footer_desktop" target="_blank" rel="noopener noreferrer"><i
+                                        class="icon-4kfarm-mobile"></i></a></div>
+                        </div>
+                        <div class="p-[20px] text-center text-12 text-[#9da7bc]">© 2018. Công Ty Cổ Phần Thương Mại Bách
+                            Hoá Xanh. GPDKKD: 0310471746 do sở KH &amp; ĐT TP.HCM cấp ngày 23/11/2010. Giấy phép thiết
+                            lập mạng xã hội trên mạng (Số 20/GP-BTTTT) do Bộ Thông Tin Và Truyền Thông cấp ngày
+                            11/01/2021. Trụ sở chính: 128 Trần Quang Khải, P.Tân Định, Quận.1, TP.HCM. Địa chỉ liên hệ:
+                            Toà nhà MWG, Lô T2-1.2, Đường D1, Khu Công Nghệ Cao, P. Tân Phú, TP.Thủ Đức, TP.HCM.
+                            Email:lienhe@bachhoaxanh.com SĐT: 028.38125960 Chịu trách nhiệm nội dung: Trần Nhật Linh.<a
+                                href="/thoa-thuan-su-dung-trang-mxh" class="underline" rel="nofollow">Xem chính sách sử
+                                dụng web</a></div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="crm-survey-render" data-type="POPUP_FORM" data-applicationid="1" data-programid="419"
+            data-programcode="69A50F0D8FB3A5A" data-attributeid-9="3" data-siteid="3" data-provinceid="3"
+            data-districtid="0" data-wardid="0" data-cusgender="2"></div>
+        <div class="crm-survey-render" data-type="POPUP_FORM" data-applicationid="1" data-programid="420"
+            data-programcode="4EBFD842865648C" data-attributeid-9="3" data-siteid="3" data-provinceid="3"
+            data-districtid="0" data-wardid="0" data-cusgender="2"></div>
+        <style>
+            #nprogress {
+                pointer-events: none;
+            }
+
+            #nprogress .bar {
+                background: #92bbfc;
+                position: fixed;
+                z-index: 9999;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 4px;
+            }
+
+            #nprogress .peg {
+                display: block;
+                position: absolute;
+                right: 0px;
+                width: 100px;
+                height: 100%;
+                box-shadow: 0 0 10px #92bbfc, 0 0 5px #92bbfc;
+                opacity: 1;
+                -webkit-transform: rotate(3deg) translate(0px, -4px);
+                -ms-transform: rotate(3deg) translate(0px, -4px);
+                transform: rotate(3deg) translate(0px, -4px);
+            }
+
+            #nprogress .spinner {
+                display: block;
+                position: fixed;
+                z-index: 1031;
+                top: 15px;
+                right: 15px;
+            }
+
+            #nprogress .spinner-icon {
+                width: 18px;
+                height: 18px;
+                box-sizing: border-box;
+                border: solid 2px transparent;
+                border-top-color: #92bbfc;
+                border-left-color: #92bbfc;
+                border-radius: 50%;
+                -webkit-animation: nprogresss-spinner 400ms linear infinite;
+                animation: nprogress-spinner 400ms linear infinite;
+            }
+
+            .nprogress-custom-parent {
+                overflow: hidden;
+                position: relative;
+            }
+
+            .nprogress-custom-parent #nprogress .spinner,
+            .nprogress-custom-parent #nprogress .bar {
+                position: absolute;
+            }
+
+            @-webkit-keyframes nprogress-spinner {
+                0% {
+                    -webkit-transform: rotate(0deg);
+                }
+
+                100% {
+                    -webkit-transform: rotate(360deg);
+                }
+            }
+
+            @keyframes nprogress-spinner {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </div>
+    <script id="__NEXT_DATA__"
+        type="application/json">{"props":{"initialProps":{"pageProps":{"deviceType":"DESKTOP","test":{}}},"initialState":{"taxonomies":{"checkLocation":false,"storeId":6934},"app":{"language":"vi","isOpenMenu":false,"deviceType":"DESKTOP","isShowSurveySearch":false,"isShowSurveyAddCart":false,"auth":true},"common":{},"search":{"verCate":false},"promotion":{"isLoading":false,"isLoadingPromotionBill":false,"isError":false,"listCategoryPromotion":[],"listProductPromotionByCate":[],"listBillPromotion":[]},"customer":{"isLoading":false,"isError":false,"isAddAddressSucceed":false,"isLoadingAddress":false},"product":{"remainProducts":[]},"cartNew":{"cartStep":"0","cartId":"","writeCardGift":1,"initialFetch":false,"isSubmitting":false,"isSubmitted":false,"isFetchingCart":false,"isFetchingAfterCart":false,"listUpdating":[],"listDeleting":[],"isGiftChanging":false,"isUpdatingPromo":false,"isLoadingPayment":false,"isLoadingSelectedTime":false,"isLoading":false,"isGreeting":false,"isCallSucceed":false,"orderError":{"open":false},"errorState":{"isError":false,"title":"","Id":0},"loadingRebuyOrder":false},"voucher":{"voucherUse":[],"voucherNotUse":[],"remainCoupon":0,"isLoading":false,"isApplying":false},"auth":{"isLoading":false,"isLoadingOtp":false,"isOtp":false},"loyalty":{"isLoading":false,"usedPointLoyalty":false}},"pageProps":{"_sentryTraceData":"4814137a8aa444e583dc5394d78cd858-be13af2213d37368-1","_sentryBaggage":"sentry-environment=production,sentry-release=bhx-tracking,sentry-public_key=ac61df5b6e4f8097a365a43c8140e232,sentry-trace_id=4814137a8aa444e583dc5394d78cd858,sentry-sample_rate=1,sentry-transaction=%2F,sentry-sampled=true"}},"page":"/","query":{},"buildId":"1707101978419","assetPrefix":"https://cdnv2.tgdd.vn/bhx/prod-fe/home","isFallback":false,"isExperimentalCompile":false,"dynamicIds":[37278,45365,83170,39422,83207,44354,15623,92993,44030,75530,39822,67473,64848,99840,82702,38318,68093,55426,31532,33141,39014,83457],"appGip":true,"scriptLoader":[{"strategy":"afterInteractive","children":"var _paq = window._paq = window._paq || [];\n              _paq.push(['trackPageView']);\n              _paq.push(['enableLinkTracking']);\n              (function () {\n                  var u = \"https://ma.tgdd.vn/\";\n                  _paq.push(['setTrackerUrl', u + 'matomo.php']);\n                  _paq.push(['setSiteId', '4']);\n                  var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];\n                  g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);\n            })();"},{"strategy":"afterInteractive","type":"text/javascript","src":"/static/js/helplive.js"},{"strategy":"afterInteractive","src":"https://cdn.tgdd.vn/map/maplibre-gl.js"},{"strategy":"afterInteractive","src":"https://cdn.tgdd.vn/crmweb/survey/js/survey.min.v20231219.js"},{"strategy":"afterInteractive","children":"\n\n            function getCookie(cName) {\n              const name = cName + \"=\";\n              const cDecoded = decodeURIComponent(document.cookie); //to be careful\n              const cArr = cDecoded.split('; ');\n              let res;\n              cArr.forEach(val =\u003e {\n                if (val.indexOf(name) === 0) res = val.substring(name.length);\n              })\n              return res\n            }\n\n            !function(f,b,e,v,n,t,s)\n            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n            n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n            n.queue=[];t=b.createElement(e);t.async=!0;\n            t.src=v;s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s)}(window, document,'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n\n            let temp = {}\n            if(getCookie('ck_bhx_us_phone')){temp['ph'] = getCookie('ck_bhx_us_phone');}\n            \n            fbq('init', '2252851441633132', temp);\n            fbq('track', 'PageView');"},{"strategy":"afterInteractive","children":"\n              function showStoreWithLocation(props) {\n                  var css = document.createElement(\"link\");\n\n                  css.href = \"https://cdn.tgdd.vn/map/maplibre-gl.css\";\n                  css.rel = \"stylesheet\";\n                  document.head.appendChild(css);\n\n                  var location = props.location;\n                  var urlImg = props.urlImg;\n                  var style = props.style;\n\n                  var map = new maplibregl.Map({\n                      container: \"mwg-maps\",\n                      style: \"https://wsmap.tgdd.vn/vector_style/mwg-map-style/osm_liberty.json\",\n                      center: location,\n                      zoom: 14\n                  });\n                  new maplibregl.Marker({\n                      draggable: false,\n                  }).setLngLat(location).addTo(map);\n                  if (document.getElementsByClassName(\"maplibregl-marker\")) {\n                    console.log(document.getElementsByClassName(\"maplibregl-marker\"))\n                    document.getElementsByClassName(\"maplibregl-marker\")[0]\n                      document.getElementsByClassName(\"maplibregl-marker\")[0].innerHTML = \"\u003cimg style='scale: 0.6; border-radius: 50%' class='img-icon-map' src=\" + urlImg + \"\u003e\"\n                  }\n                  return;\n              }\n            "}]}</script>
+</body>
+
+</html>
