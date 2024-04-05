@@ -119,6 +119,7 @@ a {
     color: white;
     font-weight: bold;
     text-transform: capitalize;
+    z-index: 3;
 }
 
 .search button {
