@@ -42,6 +42,7 @@ body {
     line-height: 21px;
     text-decoration: none;
     padding: 4px 14px 4px 14px;
+    z-index: 3;
 }
 
 .trencung>span {
@@ -197,6 +198,10 @@ input[type="text"]:focus {
     color: rgb(123 215 214);
 }
 
+.chedo {
+    cursor: pointer;
+}
+
 .phim01 {
     position: relative;
     top: 200px;
@@ -235,7 +240,7 @@ input[type="text"]:focus {
 .chuah23 {
     width: 1200px;
     height: 100px;
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -244,6 +249,7 @@ input[type="text"]:focus {
 .chuah23 h2 {
     font-size: 55px;
     line-height: 20px;
+    margin-bottom: 40px;
 }
 
 .gotocdtute {
@@ -607,22 +613,39 @@ input[type="text"]:focus {
     background-image: url("image_part_018.jpg");
 }
 
-.a1:hover, .a7:hover, .a13:hover {
+.a1:hover,
+.a7:hover,
+.a13:hover {
     background-image: url("asset\ 14.png");
 }
-.a2:hover, .a8:hover, .a14:hover {
+
+.a2:hover,
+.a8:hover,
+.a14:hover {
     background-image: url("asset\ 15.jpeg");
 }
-.a3:hover, .a9:hover, .a15:hover {
+
+.a3:hover,
+.a9:hover,
+.a15:hover {
     background-image: url("asset\ 16.jpeg");
 }
-.a4:hover, .a10:hover, .a16:hover {
+
+.a4:hover,
+.a10:hover,
+.a16:hover {
     background-image: url("asset\ 17.jpeg");
 }
-.a5:hover, .a11:hover, .a17:hover {
+
+.a5:hover,
+.a11:hover,
+.a17:hover {
     background-image: url("asset\ 18.jpeg");
 }
-.a6:hover, .a12:hover, .a18:hover {
+
+.a6:hover,
+.a12:hover,
+.a18:hover {
     background-image: url("asset\ 19.jpeg");
 }
 
@@ -636,20 +659,32 @@ input[type="text"]:focus {
     margin-bottom: 20px;
 }
 
+.tuongthan path {
+    color: #55d5d2;
+}
+
 .tuongthan p {
     margin: 0;
     margin-left: 10px;
     font-size: 20px;
+    color: #55D5D2;
 }
 
-.nuttron1, .nuttron2 {
+.nuttron1,
+.nuttron2 {
     border-radius: 50%;
-    border: 1px solid black;
+    border: 3px solid #FFC0CB;
+    background-color: #bdfffe;
     width: 55px;
     height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.nuttron1 {
+    transform: scaleX(-1);
 }
 
 .nhungcauchuyentute {
@@ -661,6 +696,7 @@ input[type="text"]:focus {
 .nhungcauchuyentute h3 {
     font-size: 55px;
     margin: 0;
+    color: #ff8fa2;
 }
 
 .chuanuttron {
@@ -668,13 +704,18 @@ input[type="text"]:focus {
     gap: 10px;
 }
 
+#carouselExample {
+    margin-top: 50px;
+    width: 1000px;
+}
+
 .nhungdoitacdonghanh {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 50px;
 }
 
 .chualogo_doitac img {
@@ -684,4 +725,238 @@ input[type="text"]:focus {
 .chualogo_doitac {
     display: flex;
     gap: 50px;
+}
+
+.nhungdoitacdonghanh h4 {
+    font-size: 39px;
+    font-weight: 800;
+    line-height: 58px;
+    margin: 0;
+    margin-bottom: 30px
+}
+
+.nhungdoitacdonghanh h3 {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #7bd7d6;
+}
+
+.ketnoiyeuthuong {
+    background-image: url('asset\ 25.png');
+    /* Đường dẫn đến hình ảnh */
+    background-size: cover;
+}
+
+.trang_ketnoiyeuthuong {
+    display: flex;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Màu trắng với độ trong suốt là 0.5 */
+}
+
+.lienhe_ketnoiyeuthuong {
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px
+}
+
+.lienhe_ketnoiyeuthuong h3 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #7bd7d6;
+}
+
+.lienhe_ketnoiyeuthuong b {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lienhe_ketnoiyeuthuong p {
+    font-size: 22px;
+}
+
+.diadiemketnoiyeuthuong span {
+    font-size: 25px;
+}
+
+.diadiemketnoiyeuthuong p {
+    font-size: 17px;
+    line-height: 35px;
+    margin: 10px;
+}
+
+.nut_ketnoiyeuthuong {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nut_ketnoiyeuthuong svg {
+    width: 60px;
+    height: 60px;
+}
+
+.chua_nut_ketnoiyeuthuong {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.cacchedo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    justify-content: space-around;
+    border-top: 2px solid #55D5D2;
+    border-bottom: 2px solid #55D5D2;
+}
+
+.chedo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #7bd7d6;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.footer {
+    background-color: #55D5D2;
+}
+
+.chua_nut_social {
+    display: flex;
+    gap: 40px;
+}
+
+.nutsocical {
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.duongketrang {
+    width: 80%;
+    height: 3px;
+    background-color: white;
+}
+
+.chua_content_footer {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.thongtinlienquan_footer p {
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.thongtinlienquan_footer a {
+    display: block;
+    color: white;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.thongtinlienquan_footer {
+    display: flex;
+    gap: 40px;
+}
+
+.chungnhan img {
+    display: block;
+    margin: 15px 0;
+}
+
+.chungnhan p {
+    font-weight: 700;
+}
+
+.social_footer h4 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.social_footer p {
+    color: white;
+    font-size: 20px;
+}
+
+.social_footer input {
+    width: 450px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding-left: 20px;
+    line-height: 40px;
+    padding-top: 5px;
+}
+
+.social_footer input::placeholder {
+    color: #55d5d2;
+    font-size: 17px;
+    line-height: 40px;
+    font-weight: 550;
+}
+
+input[type="email"],
+input[type="email"]:focus {
+    border: none;
+    outline: none;
+    /* Loại bỏ viền khi focus */
+}
+
+#banquyenanna {
+    margin: 0;
+    color: white;
+}
+
+.thongtinlienquan_footer {
+    z-index: 3;
+}
+
+#logo_footer {
+    position: relative;
+    opacity: 0.2;
+    transform: scale(9);
+    z-index: -10;
+}
+
+.thongtinlienquan_footer a {
+    z-index: 3;
+}
+
+.thongtinlienquan_footer a:hover {
+    color: #454545;
+}
+
+.thongtinlienquan_footer img {
+    z-index: -3;
 }
