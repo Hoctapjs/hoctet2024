@@ -30,7 +30,7 @@
                 <a href="#">Tài khoản</a>
             </div>
         </div>
-        <div class="navbar">
+        <div class="thanhtieude">
             <ul class="navlink">
                 <li>
                     <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="2.8125rem" height="2.5rem"
@@ -63,7 +63,7 @@
                     </a>
                 </li>
                 <li>
-                    <div class="search">
+                    <div class="timkiem">
                         <input type="text" name="" id="timkiem" placeholder="các mẫu kính hot nhất">
                         <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="1.00006rem" height="1rem"
                                 viewBox="0 0 20 20" fill="none">
@@ -956,7 +956,7 @@
             <p>Vệ sinh và bảo quản kính</p>
         </div>
     </div>
-    <div class="footer">
+    <div class="chantrang">
         <div class="chua_content_footer">
             <div class="social_footer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="88" height="80" viewBox="0 0 88 80" fill="none">
@@ -1074,5 +1074,14 @@
     </div>
 
 </body>
+<script>
+    // Lấy tất cả các phần tử con của thẻ body
+var elements = document.querySelectorAll('body > *');
 
+// Dùng vòng lặp để thêm class vào từng phần tử
+for (var i = 0; i < elements.length; i++) {
+    // Thêm class vào class list của phần tử
+    elements[i].classList.add('your-class-name');
+}
+</script>
 </html>

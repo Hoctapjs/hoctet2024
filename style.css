@@ -67,7 +67,7 @@ body {
     height: 29px;
 }
 
-.navbar {
+.thanhtieude {
     position: absolute;
     top: 60px;
     width: 1400px;
@@ -114,12 +114,12 @@ a {
     text-decoration: none;
 }
 
-.search {
+.timkiem {
     width: 500px;
     display: flex;
 }
 
-.search input {
+.timkiem input {
     width: 100%;
     height: 44px;
     border-radius: 22px;
@@ -140,11 +140,11 @@ input[type="text"]:focus {
     /* Loại bỏ viền khi focus */
 }
 
-.search input::placeholder {
+.timkiem input::placeholder {
     color: white;
 }
 
-.search button {
+.timkiem button {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     position: relative;
@@ -832,7 +832,7 @@ input[type="text"]:focus {
     width: 300px;
 }
 
-.footer {
+.chantrang {
     background-color: #55D5D2;
 }
 
@@ -845,7 +845,7 @@ input[type="text"]:focus {
     cursor: pointer;
 }
 
-.footer {
+.chantrang {
     display: flex;
     flex-direction: column;
     align-items: center;
